@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Pacifico&family=Poppins:ital,wght@0,300;0,400;1,300&family=Righteous&family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Pacifico&family=Poppins:ital,wght@0,300;0,400;1,300&family=Righteous&family=Rubik&family=Ubuntu:wght@300&display=swap');
+
+html{
+	scroll-behavior: smooth;
+}
+.wave{
+	background: url(backgrond/wave4.svg) ;
+	width: 100%;
+	background-size: auto;
+	background-repeat: no-repeat;
+	z-index: 1;
+}
+.animate__zoomIn{
+	z-index: 1;
+}
+.bgnav{
+	background-color: #2F7E7D/*#FFAD00*//*#FFD07F*/;
+}
+.navbar{
+	padding-top: 15px;
+}
+
+.colorjum{
+	background-color:#;
+}
+.avatar{
+	margin-top: 130px;
+
+}
+.zone{
+	margin-top: 167.9px;
+}
+.kanan{
+	margin-top: 35%;
+	font-family: 'Pacifico', cursive;
+	font-size: 77px;
+}
+.textkanan{
+	margin-top:-10%;
+	font-family: 'Pacifico', cursive;
+	font-size: 26.5px;
+}
+.bgcard{
+	background-color: #2F7E7D;
+}
+.card{
+	border-radius: 7px;
+}
+.wifi{
+	font-size: 143px;
+
+}
+.aboutjudul{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 50px;
+}
+.aboutpar{
+
+	font-size: 20px;
+}
+
+.naikindong{
+	margin-top: 0px;
+}
+
+.contactjudul{
+	font-family: 'Pacifico', cursive;
+	font-size: 30px;
+	text-decoration: underline;
+	padding: 10px;
+}
+
+.fontstyle{
+	font-family: 'Pacifico', cursive;
+}
+
+.bgfooter{
+
+}
+
+/*Dekstop Version*/
+@media (min-width: 992px) {
+	.nav-link{
+		text-transform: uppercase;
+		margin-left: 15px;
+	}
+	
+	.nav-link:hover::after{
+		content: '';
+		display: block;
+		border-bottom: 3px solid white;
+		width: 50%;
+		margin: auto;
+		padding-bottom: 3px;
+		margin-bottom: -6px;
+	}
+}
+
+/*Mobile version*/
+@media (max-width: 575.98px) {
+	.wave{
+		background: url(backgrond/wave2.svg) ;
+		width: 100%;
+
+		background-size: auto;
+		background-repeat: no-repeat;
+	}
+	.avatar{
+		margin-bottom: 50px;
+	}
+	.kanan{
+		font-size: 43px;
+		text-align: center;
+		margin-top: -19%;
+	}
+	.textkanan{
+		margin-top: -15% ;
+		font-size: 17px;
+		text-align: center;
+	}
+	.col-md-4{
+		margin-bottom: 10px;
+	}
+	.contact{
+		padding-left: auto;
+	}
+	.zone{
+
+	}
+	.mapsicon{
+		width: 40%;
+	}
+	.avataricon{
+		width: 40%;
+	}
+}
+
+/*Tablet Version*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.kanan{
+		font-size: 40px;
+	}
+
+	.wave{
+	background: url(backgrond/wave4.svg) ;
+	width: 100%;
+	margin-top: 10x;
+	background-size: auto;
+	background-repeat: no-repeat;
+	z-index: 1;
+	}
+	.aboutjudul{
+		font-size: 20px;
+	}
+	.aboutpar{
+		font-size: 14px;
+	}
+	.address{
+		font-size: 13px;
+	}
+	.info{
+		font-size: 8.5px;
+	}
+	.contact{
+		margin-bottom: 10px;
+	}
+	.mapsicon{
+		width: 100%;
+	}
+	.avataricon{
+		width: 100%;
+	}
+}
